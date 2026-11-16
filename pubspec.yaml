@@ -39,7 +39,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.nikodembernat.extension_bridge
+        package: co.leancode.extension_bridge
         pluginClass: ExtensionBridgePlugin
       ios:
         pluginClass: ExtensionBridgePlugin

@@ -1,4 +1,4 @@
-package com.nikodembernat.extension_bridge
+package co.leancode.extension_bridge
 
 import android.app.Activity
 import android.content.Context

@@ -337,7 +337,7 @@ struct IncrementIntent: AppIntent {
 
 ### Home screen widget (Android)
 
-See [`CounterWidgetProvider.kt`](example/android/app/src/main/kotlin/com/nikodembernat/extension_bridge_example/CounterWidgetProvider.kt)
+See [`CounterWidgetProvider.kt`](example/android/app/src/main/kotlin/co/leancode/extension_bridge_example/CounterWidgetProvider.kt)
 in the example: it reads the counter with `ExtensionBridgeStorage`, opens the
 app with `ExtensionBridgeLinks.pendingIntent` and increments in Dart with
 `ExtensionBridgeBackground.pendingIntent`.

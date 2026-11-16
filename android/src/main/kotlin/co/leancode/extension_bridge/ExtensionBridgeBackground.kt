@@ -1,4 +1,4 @@
-package com.nikodembernat.extension_bridge
+package co.leancode.extension_bridge
 
 import android.app.PendingIntent
 import android.content.BroadcastReceiver
@@ -39,8 +39,8 @@ object ExtensionBridgeBackground {
   private const val PREFERENCES = "extension_bridge.background"
   private const val DISPATCHER_KEY = "dispatcher"
   private const val CALLBACK_KEY = "callback"
-  internal const val EXTRA_NAME = "com.nikodembernat.extension_bridge.extra.NAME"
-  internal const val EXTRA_ARGUMENTS = "com.nikodembernat.extension_bridge.extra.ARGUMENTS"
+  internal const val EXTRA_NAME = "co.leancode.extension_bridge.extra.NAME"
+  internal const val EXTRA_ARGUMENTS = "co.leancode.extension_bridge.extra.ARGUMENTS"
 
   private var engine: FlutterEngine? = null
   private var channel: MethodChannel? = null

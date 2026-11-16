@@ -7,7 +7,7 @@ import ExtensionBridgeKit
 /// names are used from Dart in `lib/demo/shared.dart`.
 enum Demo {
   /// The App Group in the App Groups capability of every target.
-  static let appGroup = "group.com.nikodembernat.extensionBridgeExample"
+  static let appGroup = "group.co.leancode.extensionBridgeExample"
 
   /// `bridge.storage` in Dart.
   static var storage: ExtensionBridgeStorage { ExtensionBridgeStorage(appGroup: appGroup) }
@@ -90,7 +90,7 @@ enum Demo {
 
   /// A Darwin notification posted whenever an extension changes shared state,
   /// so the running app can refresh immediately (see `DemoFeature`).
-  static let changedNotification = "com.nikodembernat.extensionBridgeExample.changed"
+  static let changedNotification = "co.leancode.extensionBridgeExample.changed"
 
   /// Tells the app (in any process) that shared state changed.
   static func notifyChanged() {

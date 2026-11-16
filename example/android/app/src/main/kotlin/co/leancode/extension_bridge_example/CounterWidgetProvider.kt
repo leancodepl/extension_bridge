@@ -1,4 +1,4 @@
-package com.nikodembernat.extension_bridge_example
+package co.leancode.extension_bridge_example
 
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
@@ -6,9 +6,9 @@ import android.content.ComponentName
 import android.content.Context
 import android.net.Uri
 import android.widget.RemoteViews
-import com.nikodembernat.extension_bridge.ExtensionBridgeBackground
-import com.nikodembernat.extension_bridge.ExtensionBridgeLinks
-import com.nikodembernat.extension_bridge.ExtensionBridgeStorage
+import co.leancode.extension_bridge.ExtensionBridgeBackground
+import co.leancode.extension_bridge.ExtensionBridgeLinks
+import co.leancode.extension_bridge.ExtensionBridgeStorage
 
 /**
  * A home screen widget showing the shared counter.
@@ -39,7 +39,7 @@ class CounterWidgetProvider : AppWidgetProvider() {
   }
 
   companion object {
-    const val APP_GROUP = "group.com.nikodembernat.extensionBridgeExample"
+    const val APP_GROUP = "group.co.leancode.extensionBridgeExample"
 
     /** Redraws every counter widget. */
     fun updateAll(context: Context) {

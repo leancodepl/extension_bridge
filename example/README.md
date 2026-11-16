@@ -34,7 +34,7 @@ everywhere.
 ## Running on an iPhone
 
 The Runner, `Widgets` and `Share` targets share the App Group
-`group.com.nikodembernat.extensionBridgeExample`. Set your team in Xcode for
+`group.co.leancode.extensionBridgeExample`. Set your team in Xcode for
 all three targets (or change the bundle identifiers and the group) and run:
 
 ```sh

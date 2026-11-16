@@ -23,7 +23,7 @@ class const StoragePage({super.key}) extends StatelessWidget {
       live: _Inspector(),
       snippets: [
         Snippet.dart('Dart', '''
-const bridge = ExtensionBridge(appGroup: 'group.com.nikodembernat.extensionBridgeExample');
+const bridge = ExtensionBridge(appGroup: 'group.co.leancode.extensionBridgeExample');
 
 await bridge.storage.set('counter', 42);   // bool, int, double, String, Uint8List
 await bridge.storage.setJson('profile', {'name': 'Ada'});

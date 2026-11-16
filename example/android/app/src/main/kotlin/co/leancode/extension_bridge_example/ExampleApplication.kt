@@ -1,7 +1,7 @@
-package com.nikodembernat.extension_bridge_example
+package co.leancode.extension_bridge_example
 
 import android.app.Application
-import com.nikodembernat.extension_bridge.ExtensionBridgePlugin
+import co.leancode.extension_bridge.ExtensionBridgePlugin
 
 /**
  * Registers the native features of the example.

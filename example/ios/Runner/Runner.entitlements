@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.nikodembernat.extensionBridgeExample</string>
+		<string>group.co.leancode.extensionBridgeExample</string>
 	</array>
 </dict>
 </plist>

@@ -1,4 +1,4 @@
-package com.nikodembernat.extension_bridge
+package co.leancode.extension_bridge
 
 import android.app.Activity
 import android.app.PendingIntent
@@ -27,7 +27,7 @@ object ExtensionBridgeLinks {
   const val MARKER_PARAMETER = "extension_bridge"
 
   /** The intent extra that carries a marked link past Flutter's router. */
-  const val EXTRA_LINK = "com.nikodembernat.extension_bridge.LINK"
+  const val EXTRA_LINK = "co.leancode.extension_bridge.LINK"
 
   /**
    * Marks [uri] as an extension link opened by [source], e.g. `widget`.

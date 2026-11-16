@@ -1,4 +1,4 @@
-group = "com.nikodembernat.extension_bridge"
+group = "co.leancode.extension_bridge"
 version = "1.0-SNAPSHOT"
 
 buildscript {
@@ -26,7 +26,7 @@ plugins {
 }
 
 android {
-    namespace = "com.nikodembernat.extension_bridge"
+    namespace = "co.leancode.extension_bridge"
 
     compileSdk = 36
 

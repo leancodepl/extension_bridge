@@ -8,7 +8,7 @@
 PRODUCT_NAME = extension_bridge_example
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.nikodembernat.extensionBridgeExample
+PRODUCT_BUNDLE_IDENTIFIER = co.leancode.extensionBridgeExample
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2026 com.nikodembernat. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2026 co.leancode. All rights reserved.

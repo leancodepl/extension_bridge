@@ -10,7 +10,7 @@ import 'package:flutter/material.dart';
 ///
 /// On iOS it has to be added to the App Groups capability of the app and of
 /// every extension. Other platforms use it as a namespace.
-const appGroup = 'group.com.nikodembernat.extensionBridgeExample';
+const appGroup = 'group.co.leancode.extensionBridgeExample';
 
 /// The bridge used by the app, its extensions and its background callback.
 const bridge = ExtensionBridge(appGroup: appGroup);

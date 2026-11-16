@@ -1,4 +1,4 @@
-package com.nikodembernat.extension_bridge_example
+package co.leancode.extension_bridge_example
 
 import io.flutter.embedding.android.FlutterActivity
 
